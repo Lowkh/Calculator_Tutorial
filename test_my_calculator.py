@@ -1,7 +1,6 @@
 import pytest
 from mycalculator.my_calculator_functions import *
 
-
 def test_subtract():
     value = subtract(1,2,3)
     assert value == -4
