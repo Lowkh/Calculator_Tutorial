@@ -9,7 +9,7 @@ def test_add(a,b,result):
 
 def test_add_negative_positive():
     value = add(-1,2,3)
-    assert value == 6
+    assert value == 4
 
 def test_add_negative_negative():
     value = add(-1,-2)
